@@ -8,11 +8,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 
-## [0.1.8] - 2026-10-06
+## [0.1.8] - 2026-10-19
 
 ### Added
 
 - Added logbook entry on the README table with link to logbook docs
+
+### Changed
+
+- Changed root repository from GSECARS to SEESCIENCE
 
 ## [0.1.7] - 2026-10-06
 

@@ -4,10 +4,10 @@
 
 
 [![License](https://img.shields.io/badge/License-MIT-teal.svg)](LICENSE.txt) [![Python](https://img.shields.io/badge/Python-3.14-22558a.svg?logo=python&color=22558a)](https://www.python.org/)
-[![Tests](https://github.com/gsecars/gselib/actions/workflows/tests.yml/badge.svg)](https://github.com/gsecars/gselib/actions/workflows/tests.yml)
-[![Docs](https://github.com/gsecars/gselib/actions/workflows/docs.yml/badge.svg)](https://github.com/gsecars/gselib/actions/workflows/docs.yml)
+[![Tests](https://github.com/seescience/gselib/actions/workflows/tests.yml/badge.svg)](https://github.com/seescience/gselib/actions/workflows/tests.yml)
+[![Docs](https://github.com/seescience/gselib/actions/workflows/docs.yml/badge.svg)](https://github.com/seescience/gselib/actions/workflows/docs.yml)
 
-A collection of tools for GSECARS.
+A collection of tools for GSECARS/SEES.
 
 ## Installation
 
@@ -21,8 +21,8 @@ pip install 'gselib[all]'   # everything
 
 | Module | Extras | Documentation |
 |---|---|---|
-| `gselib.cloud` | `gselib[cloud]` | [Cloud](https://gsecars.github.io/GSELib/cloud) |
-| `gselib.logbook` | `gselib[logbook]` | [Logbook](https://gsecars.github.io/GSELib/logbook) |
+| `gselib.cloud` | `gselib[cloud]` | [Cloud](https://seescience.github.io/GSELib/cloud) |
+| `gselib.logbook` | `gselib[logbook]` | [Logbook](https://seescience.github.io/GSELib/logbook) |
 
 ## Contribution
 Read more [here](CONTRIBUTING.md) for contribution guidance.

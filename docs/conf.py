@@ -19,7 +19,7 @@ autoapi_options = ["members", "undoc-members", "show-inheritance", "show-module-
 
 html_theme = "pydata_sphinx_theme"
 html_theme_options = {
-    "github_url": "https://github.com/gsecars/gselib",
+    "github_url": "https://github.com/seescience/gselib",
     "navigation_with_keys": True,
     "show_toc_level": 2,
     "footer_start": ["gselib-copyright"],

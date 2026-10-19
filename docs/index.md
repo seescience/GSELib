@@ -1,6 +1,6 @@
 # GSELib
 
-A collection of tools for GSECARS.
+A collection of tools for GSECARS/SEES.
 
 ## Installation
 
