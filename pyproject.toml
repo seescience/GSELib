@@ -5,7 +5,7 @@ name = "gselib"
 dynamic = ["version"]
 authors = [ {name = "Christofanis Skordas", email = "skordasc@uchicago.edu"} ]
 maintainers = [ {name = "Christofanis Skordas", email = "skordasc@uchicago.edu"} ]
-description = "A collection of tools for GSECARS."
+description = "A collection of tools for GSECARS/SEES."
 readme = {file = "README.md", content-type = "text/markdown"}
 license = "MIT"
 license-files = ["LICENSE.txt"]
@@ -56,8 +56,8 @@ docs = [
 gselib = "gselib:main"
 
 [project.urls]
-Homepage = "https://github.com/gsecars/gselib"
-Issues = "https://github.com/gsecars/gselib/issues"
+Homepage = "https://github.com/seescience/gselib"
+Issues = "https://github.com/seescience/gselib/issues"
 
 [build-system]
 requires = ["hatchling", "hatch-vcs"]
