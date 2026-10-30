@@ -34,6 +34,14 @@ class TestSysinfo:
         """Tests that the OS version string is not empty."""
         assert isinstance(sysinfo.os_version, str) and len(sysinfo.os_version) > 0
 
+    def test_hostname_is_not_empty_string(self) -> None:
+        """Tests that the hostname string is not empty."""
+        assert isinstance(sysinfo.hostname, str) and len(sysinfo.hostname) > 0
+
+    def test_username_is_not_empty_string(self) -> None:
+        """Tests that the username string is not empty."""
+        assert isinstance(sysinfo.username, str) and len(sysinfo.username) > 0
+
     def test_architecture_flags_mutually_exclusive(self) -> None:
         """Tests that the architecture flags are unique."""
         assert not (sysinfo.is_arm and sysinfo.is_x86)

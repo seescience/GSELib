@@ -1,6 +1,8 @@
 # SPDX-License-Identifier: MIT
 
+import getpass
 import platform
+import socket
 import sys
 from functools import cached_property
 
@@ -64,8 +66,18 @@ class SysInfo:
         """Returns true when running on an x86/x86_64 processor."""
         return self.architecture in ("x86_64", "amd64", "i386", "i686")
 
+    @cached_property
+    def hostname(self) -> str:
+        """Returns the hostname."""
+        return socket.gethostname()
+
+    @cached_property
+    def username(self) -> str:
+        """Returns the current OS user."""
+        return getpass.getuser()
+
     def __repr__(self) -> str:
-        return f"SysInfo(os_name={self.os_name!r}, os_version={self.os_version!r}, architecture={self.architecture!r})"
+        return f"SysInfo(os_name={self.os_name!r}, os_version={self.os_version!r}, architecture={self.architecture!r}), {self.hostname=}, {self.username=}"
 
 
 sysinfo = SysInfo()
