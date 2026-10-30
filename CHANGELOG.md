@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.1.9] - 2026-10-30
+
+### Added
+
+- Added utils subpackage with sysinfo for OS/architecture properties
 
 ## [0.1.8] - 2026-10-19
 

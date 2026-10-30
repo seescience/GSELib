@@ -30,6 +30,13 @@ Storage and share management for cloud services. Currently supports Nextcloud vi
 Beamline logbook backed by Google Docs. Append timestamped entries, export to PDF, and share with your team in real time.
 :::
 
+:::{grid-item-card} Utils
+:link: utils
+:link-type: doc
+
+Lightweight runtime helpers. Includes a pre-build `sysinfo` singleton for boolean OS and CPU architecture checks, with no extra depedencies.
+:::
+
 :::{grid-item-card} API Reference
 :link: autoapi/index
 :link-type: doc
@@ -45,5 +52,6 @@ Auto-generated reference for all public classes and functions.
 
 cloud
 logbook
+utils
 API Reference <autoapi/index>
 ```

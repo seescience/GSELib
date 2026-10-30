@@ -23,6 +23,7 @@ pip install 'gselib[all]'   # everything
 |---|---|---|
 | `gselib.cloud` | `gselib[cloud]` | [Cloud](https://seescience.github.io/GSELib/cloud) |
 | `gselib.logbook` | `gselib[logbook]` | [Logbook](https://seescience.github.io/GSELib/logbook) |
+| `gselib.utils` | `no-extras` | [Logbook](https://seescience.github.io/GSELib/utils) |
 
 ## Contribution
 Read more [here](CONTRIBUTING.md) for contribution guidance.
