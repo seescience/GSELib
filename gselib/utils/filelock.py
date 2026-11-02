@@ -36,7 +36,7 @@ class FileLock:
     def lock_info(self) -> str | None:
         """Returns the contents of the lock file if it exists, otherwise None."""
         try:
-            return self.lock_file.read_test()
+            return self.lock_file.read_text()
         except Exception:
             return None
 
