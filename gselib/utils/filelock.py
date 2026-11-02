@@ -75,4 +75,4 @@ class FileLock:
         self.release()
 
     def __repr__(self) -> str:
-        return f"FileLock(file={self.file_name}, locked={self.is_locked}, timeout={self.timout}s)"
+        return f"FileLock(file={self.file_name}, locked={self.is_locked}, timeout={self.timeout}s)"
