@@ -13,6 +13,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Added utils subpackage with sysinfo for OS/architecture properties
 - Added current hostname and username to sysinfo
+- Added a cross-platform file locking with a context manager
 
 ## [0.1.8] - 2026-10-19
 

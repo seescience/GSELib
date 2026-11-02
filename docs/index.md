@@ -34,7 +34,9 @@ Beamline logbook backed by Google Docs. Append timestamped entries, export to PD
 :link: utils
 :link-type: doc
 
-Lightweight runtime helpers. Includes a pre-build `sysinfo` singleton for boolean OS and CPU architecture checks, with no extra depedencies.
+Lightweight runtime helpers. Includes a pre-build `sysinfo` singleton for boolean OS and CPU architecture checks, and a cross-platform
+file locking via a lock file on disk. `FileLock` can be used as a context manager to guarantee exclusive access to shared files across
+processes and threads, with no extra depedencies.
 :::
 
 :::{grid-item-card} API Reference
