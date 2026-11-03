@@ -64,7 +64,7 @@ class IOCGroup:
 
         for manager in self._managers:
             process_def = manager.process_def
-            port = str(process_def.port) if process_def is not None else "-"
+            port = str(process_def.port) if process_def.port is not None else "-"
             print(f" {process_def.name:<20} {port:<8} {process_def.command}")
 
     def start_all(self) -> None:
