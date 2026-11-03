@@ -1,5 +1,5 @@
 # SPDX-License-Identifier: MIT
 
-from gselib.ioc.definition import IOCManager, ProcessDefinition
+from gselib.ioc.definition import IOCGroup, IOCManager, ProcessDefinition
 
-__all__ = ["IOCManager", "ProcessDefinition"]
+__all__ = ["IOCGroup", "IOCManager", "ProcessDefinition"]
