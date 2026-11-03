@@ -23,6 +23,14 @@ pip install 'gselib[all]'     # everything
 Storage and share management for cloud services. Currently supports Nextcloud via REST API and `occ`.
 :::
 
+:::{grid-item-card} IOC
+:link: ioc
+:link-type: doc
+
+Manages IOC processes via procServ or GNU Screen. Uses `IOCGroup` to manage multiple processes as a unit with list, start-all, stop-all,
+and status-all, and wires per-process entry points for start/connect.
+:::
+
 :::{grid-item-card} Logbook
 :link: logbook
 :link-type: doc
@@ -53,6 +61,7 @@ Auto-generated reference for all public classes and functions.
 :hidden:
 
 cloud
+ioc
 logbook
 utils
 API Reference <autoapi/index>
